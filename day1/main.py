@@ -11,7 +11,7 @@ elfList = []
 
 collectingNumbers = False
 
-with open('day1/input.txt') as f:
+with open('input.txt') as f:
     for line in f:
         if containsNumber(line):
             if collectingNumbers == False:
