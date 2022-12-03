@@ -13,7 +13,7 @@ DRAW = 3
 
 score = 0
 
-with open('day2/input.txt', 'r') as f:
+with open('input.txt', 'r') as f:
     for line in f:
         opponentChoice, myChoice = line.split(' ')
         if 'A' in opponentChoice:
