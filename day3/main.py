@@ -28,7 +28,7 @@ def part2(file):
         return commonList[0]
 
     total = 0
-    with open('input.txt', 'r') as p:
+    with open(file, 'r') as p:
         count = 0
         group = []
         for line in p:
